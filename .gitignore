@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+coverage/
+
+# 运行时数据：含管理员口令哈希与审计记录，不入库
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+
+# 日志
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# 录制素材：非交付物，且其中两个 .mov 超过 GitHub 100MB 单文件限制
+# 正式提交版视频 ITOps-Agent-Platform-v3.0.6-新版演示-提交版.mp4 正常入库
+9-功能演示视频/新版录制素材/
+9-功能演示视频/屏幕录制 2026-07-18 060020.mp4
+
+# macOS
+.DS_Store
+._*
